@@ -1,5 +1,3 @@
-# Projects
-
 ## Blockchain System based on Inheritance Management
 
 This project involves the creation of a blockchain system that handles the management of wills and inheritance. It aims to provide a secure and transparent platform for the distribution of assets according to a person's will.
