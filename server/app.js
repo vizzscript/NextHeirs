@@ -5,7 +5,6 @@ const mongoose = require('mongoose');
 require('dotenv').config(); // Make sure to call this at the top of your file
 const User = require('./models/user');
 
-
 app.use(express.json()); // Middleware for parsing JSON bodies
 
 // Basic route for GET request
