@@ -28,7 +28,7 @@ const Registration = () => {
 
   return (
     <div className='min-h-screen bg-gray-100 flex items-center justify-center'>
-      <div className='bg-black text-white p-8 rounded-lg shadow-lg'>
+      <div className='backdrop-blur-sm bg-white/30 text-black p-8 rounded-lg shadow-lg'>
         <h1 className='font-bold uppercase text-2xl mb-4'>Register Here</h1>
         <Form>
           <Form.Group controlId="formEmail">
