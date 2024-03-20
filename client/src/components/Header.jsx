@@ -2,9 +2,9 @@ import React from 'react'
 import {GrInherit} from 'react-icons/gr'
 const Header = () => {
   return (
-    <header className='flex justify-between items-center p-5 bg-white text-gray-500
+    <header className='flex justify-between items-center p-5 bg-black text-white
     hover:text-gray-700 shadow-lg fixed top-0 left-0 right-0'>
-        <a href="#" className='flex justify-start items-center text-xl text-black space-x-1'>
+        <a href="#" className='flex justify-start items-center text-xl text-white space-x-1'>
             <span>NextHeirs</span>
             <GrInherit/>
         </a>

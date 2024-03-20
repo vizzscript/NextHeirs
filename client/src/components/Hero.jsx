@@ -18,7 +18,9 @@ const Hero = () => {
             </button>
                 </div>
 
-                <div className="flex justify-center items-center mt-10">
+                <div className="flex
+                justify-center items-center mt-10 flex-col
+                md:flex-row">
                     <div className="flex flex-col justify-center items-center h-20 border border-gray-200 shadow-md w-full">
                         <span  className="text-lg font-bold text-green-900 leading-5">{0}</span>
                         <span>Wills</span>

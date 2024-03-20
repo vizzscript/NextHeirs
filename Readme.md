@@ -49,7 +49,7 @@ For a blockchain-based inheritance management system, defining clear, structured
 6. Notifications and Alerts
    - System to notify users of important events (e.g., will execution, status updates).
 
-7. **Privacy and Access Control**
+7. Privacy and Access Control
    - Ensure that wills and user information are kept private, with access control mechanisms in place to protect sensitive data.
 
 ### Non-functional Requirements
@@ -97,5 +97,3 @@ For a blockchain-based inheritance management system, defining clear, structured
 
 7. Deployment
    - Strategy for deploying the web application and smart contracts, considering aspects like gas costs and blockchain network selection.
-
-Defining these requirements forms the blueprint for the project and guides all stages of development, from initial design to deployment and maintenance.
