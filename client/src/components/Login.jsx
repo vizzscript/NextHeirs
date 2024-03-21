@@ -1,9 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import * as firebase from '../firebase';
-import '../firebase';
 import { GrInherit } from 'react-icons/gr';
-import { GoogleLogin } from '@react-oauth/google';
+import GoogleSignIn from "./GoogleSignIn";
 
 const Login = () => {
   const [email, setEmail] = React.useState('');
@@ -34,7 +32,7 @@ const Login = () => {
         <GrInherit className="w-11 h-10 mr-2 mt-2"/>
           NextHeirs   
       </a>
-      <div className="w-sm bg-white rounded-lg shadow dark:border md:mt-0 md:w-1/3 xl:p-0 backdrop-blur-sm bg-white/25">
+      <div className="w-1/3 bg-white rounded-lg shadow dark:border md:mt-0 md:w-1/4 xl:p-0 backdrop-blur-sm bg-white/25">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
         <Form className='space-y-4 md:space-y-4'>
           <Form.Group controlId="formEmail" className='space-y-2'>
@@ -66,7 +64,7 @@ const Login = () => {
           <Button variant="primary" onClick={handleLogin} className="w-full text-black font-semibold rounded-lg text-xl px-5 py-2.5 text-center dark:bg-green-700">
             Login
           </Button>
-          
+                  <GoogleSignIn />
         </Form>
         </div>
       </div>
