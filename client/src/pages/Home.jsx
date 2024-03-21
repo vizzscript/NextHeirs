@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="h-screen w-full">
       <Header />
-      <div className="flex flex-col items-center justify-center h-full w-full space-x-2 bg-black">
+      <div className="flex flex-col items-center justify-center h-full w-full space-x-2 bg-gradient-to-r from-black to-gray-950">
         <div className="p-4 m-4">
           <h1 className="text-4xl sm:text-7xl font-bold bg-gradient-to-r from-green-900 via-green-400 to-green-300 bg-clip-text text-transparent text-center">Welcome to NextHeirs!!</h1>
           <p className="text-gray-400 py-4 max-w-4xl text-center">NextHeirs is an Inheritance Management System powered by blockchain technology. Manage your wills, assets, and beneficiaries securely and transparently.</p>
