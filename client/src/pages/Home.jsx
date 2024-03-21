@@ -16,6 +16,7 @@ const Home = () => {
         <div className="space-x-2 flex
                 justify-center items-center mt-10 flex-col
                 md:flex-row">
+
           <Link to="/registration" className="inline-block h-16 w-56 px-6 py-2.5 bg-green-700  text-white font-medium text-xl leading-tight uppercase rounded-full shadow-md hover:bg-transparent hover:text-green-600 hover:border border-green-600">Register</Link>
           <br />
           <Link to="/login" className="inline-block h-16 w-56 px-4 py-2.5 border border-green-600  text-green-600 font-medium text-xl leading-tight uppercase rounded-full shadow-md hover:bg-green-700 bg-transparent hover:text-white">Login</Link>
@@ -28,8 +29,7 @@ const Home = () => {
   );
 };
 
-// This is a home page
-// 
+
 export default Home;
 
 
