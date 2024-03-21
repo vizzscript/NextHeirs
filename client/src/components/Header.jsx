@@ -1,5 +1,6 @@
 import React from 'react'
 import {GrInherit} from 'react-icons/gr'
+import ConnectWallet from './ConnectWallet'
 const Header = () => {
   return (
     <header className='flex justify-between items-center p-5 bg-gradient-to-r from-black  to-gray-950 text-white
@@ -10,12 +11,13 @@ const Header = () => {
         </a>
 
         <div className='flex space-x-2 justify-center'>
-            <button type='button'
+            {/* <button type='button'
             className='inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-green-700 '>Connect Wallet
-            </button>
+            </button> */}
+            <ConnectWallet/>
         </div>
         </header>
   )
 }
-
+//            
 export default Header
