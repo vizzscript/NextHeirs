@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {toast} from 'react-hot-toast'
 
 function ConnectWallet() {
     const [walletAddress, setWalletAddress] = useState(null);
@@ -19,7 +20,9 @@ function ConnectWallet() {
             }
         } else {
             // If MetaMask is not installed, prompt the user to install it
-            alert('Please install MetaMask to connect your wallet.');
+            // alert('Please install MetaMask to connect your wallet.');
+            toast.error("Please install MetaMask to connect your wallet.",{duration:3000});
+
         }
     }
 
