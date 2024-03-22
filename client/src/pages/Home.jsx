@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Connect from '../components/Connect';
 import Footer from "../components/Footer";
-import User from "../components/User";
 const Home = () => {
   return (
     <div className="h-screen w-full">
@@ -22,7 +21,6 @@ const Home = () => {
           <Link to="/login" className="flex items-center justify-center h-16 w-56 px-4 py-2.5 border border-green-600  text-green-600 font-medium text-xl leading-tight uppercase rounded-full shadow-md hover:bg-green-700 bg-transparent hover:text-white">Login</Link>
         </div>
       </div>
-      <User/>
       <Connect/>
       <Footer/>
     </div>
