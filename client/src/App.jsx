@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from "./components/Login";
 import User from "./components/User"
 import Error from './components/Error'
+import FAQ from "./pages/FAQ";
 export default function App() {
   return (
       <div className="min-h-screen relative">
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/registration/login" element={<Login />} />
           <Route path="/login/user" element={<User />} />
           <Route path="*" element={<Error/>}/>
+          <Route exact path="/FAQ" element={<FAQ />} />
         </Routes>
       </Router>
     </div>
