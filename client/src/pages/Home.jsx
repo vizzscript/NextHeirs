@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Connect from '../components/Connect';
 import Footer from '../components/Footer';
-import Hero from '../components/Hero';
+
 
 const Home = () => {
   return (
@@ -22,7 +22,6 @@ const Home = () => {
           <Link to="/login" className="inline-block h-14 w-56 px-16 py-3 border border-green-600  text-green-600 font-medium text-xl leading-tight uppercase rounded-full shadow-md hover:bg-green-700 bg-transparent hover:text-white">Login</Link>
         </div>
       </div>
-      <Hero/>
       <Connect/>
       <Footer/>
     </div>
