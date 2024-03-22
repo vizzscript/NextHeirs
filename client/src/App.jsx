@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import Registration from "./components/Registration"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from "./components/Login";
-import Hero from "./components/Hero"
+import User from "./components/User"
 import Error from './components/Error'
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/login" element={<Login />} />
           <Route path="/registration/login" element={<Login />} />
-          <Route path="/login/hero" element={<Hero />} />
+          <Route path="/login/user" element={<User />} />
           <Route path="*" element={<Error/>}/>
         </Routes>
       </Router>
